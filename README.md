@@ -6,6 +6,9 @@ Desafio 1
 
 Conforme a imagem disponibilizada o formulário foi criado e está armazenada na pasta [Desafio 1](./desafio1/resolucao_desafio1)
 
+Desafio 2
+Realizadas as consultas conforme solicitado, as queries e suas saídas foram armazenadas na pasta [Desafio 2](./desafio2/resolucao_desafio2)
+
 
 -Desafio 3.1
 Após verificado que havia uma rota e uma view para as páginas indicadas foi verificado então se havia na view da tela inicial
