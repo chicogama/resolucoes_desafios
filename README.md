@@ -16,15 +16,17 @@ o endereço estava definido corretamente na tag html de hiperlink, que logo apon
 no Laravel. Dessa forma as seguintes linhas foram alteradas:
 
 
---shell
+```bash
 <a href="{{ url('/produtos') }}">Produtos</a>
 <a href="{{ url('/categorias') }}">Categorias</a>
---shell 
+```bash
  
 alterado para:
-                    
+
+```bash
 <a href="{{ url('/produtos/listar') }}">Produtos</a>
 <a href="{{ url('/categorias/listar') }}">Categorias</a>
+```bash
 
 Desafio 3.2
 Erro no método do formulário
