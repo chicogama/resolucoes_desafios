@@ -4,7 +4,7 @@ Respostas de desafio técnico Proesc
 
 Desafio 1
 
-Conforme a imagem disponibilizada o formulário foi criado e está armazenada na pasta [Desafio 1](./resolucoes_desafio/desafio1/resolucao_desafio1)
+Conforme a imagem disponibilizada o formulário foi criado e está armazenada na pasta [Desafio 1](./desafio1/resolucao_desafio1)
 
 
 -Desafio 3.1
