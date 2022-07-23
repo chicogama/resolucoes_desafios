@@ -2,11 +2,11 @@
 
 ## Respostas de desafio técnico Proesc
 
- -Desafio 1
+ -[Desafio 1]
 
 Conforme a imagem disponibilizada o formulário foi criado e está armazenada na pasta [Desafio 1](./desafio1/resolucao_desafio1)
 
- -Desafio 2
+ -[Desafio 2]
 Realizadas as consultas conforme solicitado, as queries e suas saídas foram armazenadas na pasta [Desafio 2](./desafio2/resoluca_desafio2)
 
 
