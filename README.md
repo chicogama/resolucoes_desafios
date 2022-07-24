@@ -29,24 +29,22 @@ alterado para:
 ```
 
 Desafio 3.2
-Erro no método do formulário
-
+Neste desafio foi notado que havia um erro no método no formulário que realizava a inserção dos dados no banco de dados, este método foi então alterado de modo a utilizar o método correto para esta aplicação. 
 
 ```bash
 <form name="formCard" id="formCard" method="GET" action="{{url('categorias/listar')}}">
 ```
 
 
-Alterado para 
+Alterado para: 
 
 ```bash
 <form name="formCard" id="formCard" method="POST" action="{{url('categorias/listar')}}">
 ```
 
 
-Desafio 3.2
-criação de relacionamento entre os modelos
-
+Desafio 3.3
+Para este desafio foi notado que não havia nenhum tipo de relacionamento entre as Models da aplicação e dessa forma não era possível realizar a consulta correta do dado necessário para retornar o dado correto. Dessa forma foi realizado a criação do relacionamento utilizando o Eloquente ORM com uma função que retornava a consulta correta.
 
 ```bash
 
@@ -58,10 +56,11 @@ criação de relacionamento entre os modelos
     }
     
 ```
-Alterar view de Produtos pra exibir o retorno da função de relacionamento
+Foi necessário ainda alterar a view de Produtos pra exibir o retorno da função de relacionamento.
+
 ```bash    
     
     <td scope="row">
-                            {{$produto->category->name}}
+        {{$produto->category->name}}
 
 ```
