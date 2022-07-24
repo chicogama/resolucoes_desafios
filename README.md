@@ -19,24 +19,36 @@ no Laravel. Dessa forma as seguintes linhas foram alteradas:
 ```bash
 <a href="{{ url('/produtos') }}">Produtos</a>
 <a href="{{ url('/categorias') }}">Categorias</a>
-```bash
+```
  
 alterado para:
 
 ```bash
 <a href="{{ url('/produtos/listar') }}">Produtos</a>
 <a href="{{ url('/categorias/listar') }}">Categorias</a>
-```bash
+```
 
 Desafio 3.2
 Erro no método do formulário
+
+
+```bash
 <form name="formCard" id="formCard" method="GET" action="{{url('categorias/listar')}}">
+```
+
 
 Alterado para 
+
+```bash
 <form name="formCard" id="formCard" method="POST" action="{{url('categorias/listar')}}">
+```
+
 
 Desafio 3.2
 criação de relacionamento entre os modelos
+
+
+```bash
 
     public function category(){
         return $this->belongsTo(Category::class,
@@ -45,8 +57,11 @@ criação de relacionamento entre os modelos
             'id');
     }
     
-    Alterar view de Produtos pra exibir o retorno da função de relacionamento
+```
+Alterar view de Produtos pra exibir o retorno da função de relacionamento
+```bash    
     
     <td scope="row">
                             {{$produto->category->name}}
 
+```
