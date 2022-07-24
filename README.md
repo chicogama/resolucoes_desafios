@@ -6,11 +6,11 @@
 
 Conforme a imagem disponibilizada o formulário foi criado e está armazenada na pasta [Desafio 1](./desafio1/resolucao_desafio1)
 
- ## Desafio 2
+ ### Desafio 2
 Realizadas as consultas conforme solicitado, as queries e suas saídas foram armazenadas na pasta [Desafio 2](./desafio2/resoluca_desafio2)
 
 
-## Desafio 3.1
+### Desafio 3.1
 Após verificado que haviam rotas e uma views criadas para as páginas indicadas, posteriormente foi verificado então se na view da tela inicial
 o endereço estava definido corretamente na tag html de hiperlink, que logo apontou problema já que o link não estava de acordo com a rota definida
 no Laravel. Dessa forma as seguintes linhas foram alteradas:
