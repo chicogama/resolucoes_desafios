@@ -28,7 +28,7 @@ alterado para:
 <a href="{{ url('/categorias/listar') }}">Categorias</a>
 ```
 
-Desafio 3.2
+### Desafio 3.2
 Neste desafio foi notado que havia um erro no método no formulário que realizava a inserção dos dados no banco de dados, este método foi então alterado de modo a utilizar o método correto para esta aplicação. 
 
 ```bash
@@ -43,7 +43,7 @@ Alterado para:
 ```
 
 
-Desafio 3.3
+### Desafio 3.3
 Para este desafio foi notado que não havia nenhum tipo de relacionamento entre as Models da aplicação e dessa forma não era possível realizar a consulta correta do dado necessário para retornar o dado correto. Dessa forma foi realizado a criação do relacionamento utilizando o Eloquente ORM com uma função que retornava a consulta correta.
 
 ```bash
